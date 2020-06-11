@@ -1,0 +1,13 @@
+#include "pch.h"
+#include <iostream>
+#include <string>
+wei = 82
+wei1 = 0.165
+wei2 = 1
+wei3 = wei
+for year in range(1, 16) :
+	wei3 = (wei3 + wei2)*wei1
+	print('Год %s = %s' % (year, wei3))
+
+
+
